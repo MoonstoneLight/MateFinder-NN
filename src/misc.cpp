@@ -137,7 +137,7 @@ const string engine_info(bool to_uci) {
 
   unsigned int n = std::thread::hardware_concurrency();
 
-  ss << "MateFinder-NN " << Version << setfill('0');
+  ss << "MFinder-NN " << Version << setfill('0');
 
   if (Version.empty())
   {
